@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  color: #666;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+#wrapper {
+  width: 80%;
+  min-width: 700px;
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #666666;
+}
+
+header {
+  background-color: #006eb5;
+  color: #ffffff;
+  font-family: Consolas, "Andale Mono", "Lucida Console",
+    "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+h1 {
+  line-height: 200%;
+  background-image: url("onebooklogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 33px;
+  height: 180px;
+  margin-bottom: 0;
+}
+
+nav {
+  font-weight: bold;
+  background-color: #f58438;
+  padding: 5px;
+  color: blueviolet;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+a:link {
+  color: #006eb5;
+  text-decoration: none;
+}
+
+main {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2 {
+  color: #0071b9;
+  font-family: Georgia, serif;
+}
+
+dt {
+  color: #3f883b;
+}
+
+dd {
+  color: #1e1e1e;
+}
+.resort {
+  color: #000033;
+  font-size: 1.2em;
+}
+
+footer {
+  font-size: 0.7em;
+  text-align: center;
+  font-style: italic;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+#whopper {
+  width: 80%;
+  min-width: 700px;
+  max-width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px #666666;
+}
